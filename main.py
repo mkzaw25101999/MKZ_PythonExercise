@@ -1,4 +1,4 @@
-# greet you by name
+# greet with name
 name = input("Enter the Name: ")
 print(f"Hello, {name}!")
 print()
@@ -19,10 +19,10 @@ print(f"The area of the circle:  {area}")
 print()
 
 # Get the quantities of length and width of a rectangle from the user as input
-length = float(input("Enther the quantity of length of a rectangle: "))
-width = float(input("Enter te quantity of width of a rectangle: "))
+length = float(input("Enter the quantity of length of a rectangle: "))
+width = float(input("Enter the quantity of width of a rectangle: "))
 
-# the perimeter  of the rectangle will be calculated by using this formula: 2*(length+width)
+# The perimeter  of the rectangle will be calculated by using this formula: 2*(length+width)
 perimeter = 2*(length+width)
 
 # The area of the rectangle will be calculated by using this formula: (length*width)
